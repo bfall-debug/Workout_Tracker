@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "heroku-postbuild": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
-    "seed": "node seeders/seed.js"
+    "seed": "node seeders/seed.js",
+    "heroku-postbuild": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
   },
   "repository": {
     "type": "git",
